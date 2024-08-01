@@ -1,0 +1,4 @@
+Device     Boot   Start     End Sectors  Size Id Type
+/dev/sdb1          2048 2099199 2097152    1G 83 Linux
+/dev/sdb2       2099200 3123199 1024000  500M 82 Linux swap / Solaris
+
