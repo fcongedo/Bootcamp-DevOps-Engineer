@@ -1,0 +1,171 @@
+  --- Physical volume ---
+  PV Name               /dev/sdd1
+  VG Name               volgroup-2
+  PV Size               <2,00 GiB / not usable 3,00 MiB
+  Allocatable           yes (but full)
+  PE Size               4,00 MiB
+  Total PE              511
+  Free PE               0
+  Allocated PE          511
+  PV UUID               0zZ2so-A38y-erhS-x7dZ-xASe-8qPh-GwFtRc
+   
+  --- Physical volume ---
+  PV Name               /dev/sde1
+  VG Name               volgroup-2
+  PV Size               <2,00 GiB / not usable 3,00 MiB
+  Allocatable           yes 
+  PE Size               4,00 MiB
+  Total PE              511
+  Free PE               207
+  Allocated PE          304
+  PV UUID               iOFK8a-07ic-538L-f2w9-JpTy-C0tp-RilsxE
+   
+  --- Physical volume ---
+  PV Name               /dev/sdb1
+  VG Name               volgroup-1
+  PV Size               1023,00 MiB / not usable 3,00 MiB
+  Allocatable           yes 
+  PE Size               4,00 MiB
+  Total PE              255
+  Free PE               76
+  Allocated PE          179
+  PV UUID               B799j9-mDcI-5778-tJZx-htHU-w9AV-m58GDG
+   
+  --- Physical volume ---
+  PV Name               /dev/sdc1
+  VG Name               volgroup-1
+  PV Size               1023,00 MiB / not usable 3,00 MiB
+  Allocatable           yes (but full)
+  PE Size               4,00 MiB
+  Total PE              255
+  Free PE               0
+  Allocated PE          255
+  PV UUID               RRqRWM-8vIr-zLNf-ROlz-766Z-gSVd-0mgIBG
+   
+  --- Volume group ---
+  VG Name               volgroup-2
+  System ID             
+  Format                lvm2
+  Metadata Areas        2
+  Metadata Sequence No  4
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                3
+  Open LV               1
+  Max PV                0
+  Cur PV                2
+  Act PV                2
+  VG Size               3,99 GiB
+  PE Size               4,00 MiB
+  Total PE              1022
+  Alloc PE / Size       815 / 3,18 GiB
+  Free  PE / Size       207 / 828,00 MiB
+  VG UUID               hm27mf-Te5E-zm8a-8Xkg-Qvt7-KUr0-VXp1C4
+   
+  --- Volume group ---
+  VG Name               volgroup-1
+  System ID             
+  Format                lvm2
+  Metadata Areas        2
+  Metadata Sequence No  3
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                2
+  Open LV               1
+  Max PV                0
+  Cur PV                2
+  Act PV                2
+  VG Size               1,99 GiB
+  PE Size               4,00 MiB
+  Total PE              510
+  Alloc PE / Size       434 / <1,70 GiB
+  Free  PE / Size       76 / 304,00 MiB
+  VG UUID               2JTnIt-etqu-FNmV-Hw60-IM3J-CVbN-7GEKE6
+   
+  --- Logical volume ---
+  LV Path                /dev/volgroup-2/lv-3
+  LV Name                lv-3
+  VG Name                volgroup-2
+  LV UUID                0cJXH1-d8N0-rFT5-0Y6G-16eO-lLq3-Iig6eZ
+  LV Write Access        read/write
+  LV Creation host, time desafio5, 2023-07-22 20:14:08 -0300
+  LV Status              available
+  # open                 0
+  LV Size                2,50 GiB
+  Current LE             640
+  Segments               2
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:2
+   
+  --- Logical volume ---
+  LV Path                /dev/volgroup-2/lv-4
+  LV Name                lv-4
+  VG Name                volgroup-2
+  LV UUID                dgKekq-sG0m-GaLg-N7rX-Z2u0-wuYo-zOvLyQ
+  LV Write Access        read/write
+  LV Creation host, time desafio5, 2023-07-22 20:14:51 -0300
+  LV Status              available
+  # open                 0
+  LV Size                200,00 MiB
+  Current LE             50
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:3
+   
+  --- Logical volume ---
+  LV Path                /dev/volgroup-2/lv-5
+  LV Name                lv-5
+  VG Name                volgroup-2
+  LV UUID                h6tbNB-0rIE-9JKy-joJ6-dQE5-ZNCJ-hP23iO
+  LV Write Access        read/write
+  LV Creation host, time desafio5, 2023-07-22 20:17:22 -0300
+  LV Status              available
+  # open                 1
+  LV Size                500,00 MiB
+  Current LE             125
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:4
+   
+  --- Logical volume ---
+  LV Path                /dev/volgroup-1/lv-1
+  LV Name                lv-1
+  VG Name                volgroup-1
+  LV UUID                GtwbkJ-RaeZ-Mu3i-oGbA-7w5K-ORCi-5RyVS7
+  LV Write Access        read/write
+  LV Creation host, time desafio5, 2023-07-22 20:11:58 -0300
+  LV Status              available
+  # open                 0
+  LV Size                300,00 MiB
+  Current LE             75
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:0
+   
+  --- Logical volume ---
+  LV Path                /dev/volgroup-1/lv-2
+  LV Name                lv-2
+  VG Name                volgroup-1
+  LV UUID                81l7g6-juul-56Mv-MPRy-7r29-dIRO-Rxlp7N
+  LV Write Access        read/write
+  LV Creation host, time desafio5, 2023-07-22 20:12:58 -0300
+  LV Status              available
+  # open                 1
+  LV Size                1,40 GiB
+  Current LE             359
+  Segments               2
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:1
+   

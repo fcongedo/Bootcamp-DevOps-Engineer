@@ -1,0 +1,82 @@
+  --- Physical volume ---
+  PV Name               /dev/sdd1
+  VG Name               volgroup-2
+  PV Size               <2,00 GiB / not usable 3,00 MiB
+  Allocatable           yes (but full)
+  PE Size               4,00 MiB
+  Total PE              511
+  Free PE               0
+  Allocated PE          511
+  PV UUID               0zZ2so-A38y-erhS-x7dZ-xASe-8qPh-GwFtRc
+   
+  --- Physical volume ---
+  PV Name               /dev/sde1
+  VG Name               volgroup-2
+  PV Size               <2,00 GiB / not usable 3,00 MiB
+  Allocatable           yes (but full)
+  PE Size               4,00 MiB
+  Total PE              511
+  Free PE               0
+  Allocated PE          511
+  PV UUID               iOFK8a-07ic-538L-f2w9-JpTy-C0tp-RilsxE
+   
+  --- Physical volume ---
+  PV Name               /dev/sdb1
+  VG Name               volgroup-2
+  PV Size               1023,00 MiB / not usable 3,00 MiB
+  Allocatable           yes (but full)
+  PE Size               4,00 MiB
+  Total PE              255
+  Free PE               0
+  Allocated PE          255
+  PV UUID               B799j9-mDcI-5778-tJZx-htHU-w9AV-m58GDG
+   
+  --- Physical volume ---
+  PV Name               /dev/sdc1
+  VG Name               volgroup-2
+  PV Size               1023,00 MiB / not usable 3,00 MiB
+  Allocatable           yes 
+  PE Size               4,00 MiB
+  Total PE              255
+  Free PE               255
+  Allocated PE          0
+  PV UUID               RRqRWM-8vIr-zLNf-ROlz-766Z-gSVd-0mgIBG
+   
+  --- Volume group ---
+  VG Name               volgroup-2
+  System ID             
+  Format                lvm2
+  Metadata Areas        4
+  Metadata Sequence No  9
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                1
+  Open LV               0
+  Max PV                0
+  Cur PV                4
+  Act PV                4
+  VG Size               5,98 GiB
+  PE Size               4,00 MiB
+  Total PE              1532
+  Alloc PE / Size       1277 / <4,99 GiB
+  Free  PE / Size       255 / 1020,00 MiB
+  VG UUID               hm27mf-Te5E-zm8a-8Xkg-Qvt7-KUr0-VXp1C4
+   
+  --- Logical volume ---
+  LV Path                /dev/volgroup-2/lv-5
+  LV Name                lv-5
+  VG Name                volgroup-2
+  LV UUID                h6tbNB-0rIE-9JKy-joJ6-dQE5-ZNCJ-hP23iO
+  LV Write Access        read/write
+  LV Creation host, time desafio5, 2023-07-22 20:17:22 -0300
+  LV Status              available
+  # open                 0
+  LV Size                <4,99 GiB
+  Current LE             1277
+  Segments               4
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:2
+   
